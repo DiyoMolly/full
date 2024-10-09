@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+    .menu__btn{
+        display: flex;
+    }
+    
+    .menu__ul{
+        display: flex;
+        flex-direction: column;
+        background: lightslategray;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0);
+        transition: 1s;
+    }
+    
+    .menu__link{
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .active{
+        transform: scale(100%);
+    }
+}
